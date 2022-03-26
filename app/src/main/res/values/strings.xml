@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">psp</string>
+    <string name="vote_statistic_type_yes">Ano</string>
+    <string name="vote_statistic_type_no">Ne</string>
+    <string name="vote_statistic_type_logged_off">Přihlášen</string>
+    <string name="vote_statistic_type_excused">Omluven</string>
+    <string name="vote_statistic_type_abstained">Zdržel se</string>
+</resources>
