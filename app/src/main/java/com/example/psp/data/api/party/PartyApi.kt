@@ -10,7 +10,7 @@ private const val DEFAULT_PAGE_size = 20
 private const val DEFAULT_SORT_METHOD = "id"
 private const val DEFAULT_RESULT_ORDER = "desc"
 
-interface VoteApi {
+interface PartyApi {
 
     @GET("api/party")
     suspend fun getParties(): List<PartyApiEntity>

@@ -1,6 +1,6 @@
 package com.example.psp.data.api.member
 
-import com.example.psp.data.api.member.entities.MemberAgenciesApiEntity
+import com.example.psp.data.api.member.entities.AgencyApiEntity
 import com.example.psp.data.api.member.entities.MemberApiEntity
 import com.example.psp.data.api.member.entities.MemberVoteApiEntity
 import retrofit2.http.GET
@@ -30,7 +30,7 @@ interface MemberApi {
     @GET("api/member/{id}/agency")
     suspend fun getMemberAgencies(
         @Path("id") id: Int
-    ): MemberAgenciesApiEntity
+    ): List<AgencyApiEntity>
 
     @GET("api/member/{id}/vote")
     suspend fun getMemberVotes(
