@@ -7,6 +7,6 @@ data class Vote(
     val meetingNumber: Int,
     val stenoProtocolUrl: String,
     val result: VoteResult,
-    val statistics: List<VoteStatistic>,
+    val statistics: VoteStatistics,
     val isSaved: Boolean,
 )

@@ -5,6 +5,6 @@ import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class GetVoteUseCase @Inject constructor(private val voteRepository: VoteRepository) {
-    suspend operator fun invoke() = voteRepository.getVote()
+class GetPartyVoteStatistics @Inject constructor(private val voteRepository: VoteRepository) {
+    suspend operator fun invoke(partyId: Int) = voteRepository.getPartyVoteStatistics(partyId)
 }
