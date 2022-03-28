@@ -12,5 +12,5 @@ data class VoteApiEntity(
     @Json(name = "description") val description: String,
     @Json(name = "steno_protocol_url") val stenoProtocolUrl: String,
     @Json(name = "result") val result: String,
-    @Json(name = "vote_statistics") val voteStatistics: VoteStatistics
+    @Json(name = "vote_statistics") val statistics: VoteStatistics
 )

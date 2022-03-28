@@ -1,4 +1,4 @@
-package com.example.psp.data.repository.data_source
+package com.example.psp.data.repository.party
 
 import com.example.psp.data.api.party.entities.PartyApiEntity
 import com.example.psp.data.api.party.entities.PartyVoteStatisticsApiEntity

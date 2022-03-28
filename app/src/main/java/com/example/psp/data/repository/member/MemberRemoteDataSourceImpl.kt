@@ -1,10 +1,9 @@
-package com.example.psp.data.repository.data_source_impl
+package com.example.psp.data.repository.member
 
 import com.example.psp.data.api.member.MemberApi
 import com.example.psp.data.api.member.entities.AgencyApiEntity
 import com.example.psp.data.api.member.entities.MemberApiEntity
 import com.example.psp.data.api.member.entities.MemberVoteApiEntity
-import com.example.psp.data.repository.data_source.MemberRemoteDataSource
 import javax.inject.Inject
 
 class MemberRemoteDataSourceImpl @Inject constructor(private val memberApi: MemberApi) :

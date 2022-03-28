@@ -5,5 +5,5 @@ import com.example.psp.domain.model.party.PartyVoteStatistics
 
 interface VoteRepository {
     suspend fun getVotes(): List<Vote>
-    suspend fun getVote(): Vote
+    suspend fun getVote(voteId: Int): Vote
 }

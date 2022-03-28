@@ -1,8 +1,8 @@
 package com.example.psp.domain.repository
 
 import com.example.psp.domain.model.member.Agency
+import com.example.psp.domain.model.member.Member
 import com.example.psp.domain.model.member.MemberVote
-import java.lang.reflect.Member
 
 interface MemberRepository {
     suspend fun getMembers(): List<Member>

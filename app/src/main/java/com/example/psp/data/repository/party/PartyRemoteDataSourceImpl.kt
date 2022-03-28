@@ -1,14 +1,8 @@
-package com.example.psp.data.repository.data_source_impl
+package com.example.psp.data.repository.party
 
 import com.example.psp.data.api.party.PartyApi
 import com.example.psp.data.api.party.entities.PartyApiEntity
 import com.example.psp.data.api.party.entities.PartyVoteStatisticsApiEntity
-import com.example.psp.data.api.vote.VoteApi
-import com.example.psp.data.api.vote.entities.VoteApiEntity
-import com.example.psp.data.repository.data_source.PartyRemoteDataSource
-import com.example.psp.data.repository.data_source.VoteRemoteDataSource
-import com.example.psp.domain.model.party.Party
-import com.example.psp.domain.model.party.PartyVoteStatistics
 import javax.inject.Inject
 
 class PartyRemoteDataSourceImpl @Inject constructor(private val partyApi: PartyApi) :

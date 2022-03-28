@@ -5,4 +5,5 @@
     <string name="vote_statistic_type_logged_off">Přihlášen</string>
     <string name="vote_statistic_type_excused">Omluven</string>
     <string name="vote_statistic_type_abstained">Zdržel se</string>
+    <string name="vote_statistic_type_unknown">Neznámý</string>
 </resources>

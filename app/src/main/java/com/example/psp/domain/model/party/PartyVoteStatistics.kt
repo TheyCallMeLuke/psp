@@ -5,6 +5,6 @@ import com.example.psp.domain.model.vote.VoteStatistics
 
 data class PartyVoteStatistics(
     val partyName: String,
-    val statistics: VoteStatistics,
-    val partyMemberVoteStatistics: List<MemberVoteResult>
+    val voteStatistics: VoteStatistics,
+    val memberVoteResults: List<MemberVoteResult>
 )

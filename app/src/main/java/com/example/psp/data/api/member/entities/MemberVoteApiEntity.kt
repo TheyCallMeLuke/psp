@@ -6,6 +6,6 @@ import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
 class MemberVoteApiEntity(
-    @Json(name = "vote") vote: VoteApiEntity,
-    @Json(name = "result") result: String
+    @Json(name = "vote") val vote: VoteApiEntity,
+    @Json(name = "result") val result: String
 )
